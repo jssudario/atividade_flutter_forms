@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 
 import '1_temperatura.dart';
+import '2_conta.dart';
 
 class MenuPage extends StatelessWidget {
   const MenuPage({super.key});
@@ -24,6 +25,14 @@ class MenuPage extends StatelessWidget {
               title: const Text('1 - Conversor de temperatura'),
               trailing: const Icon(Icons.chevron_right),
               onTap: () => _abrir(context, const TemperaturaPage()),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.restaurant_rounded),
+              title: const Text('2 - Divisão da conta'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => _abrir(context, const ContaPage()),
             ),
           ),
         ],
