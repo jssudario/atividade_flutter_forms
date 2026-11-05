@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 
 import '1_temperatura.dart';
 import '2_conta.dart';
+import '3_inscricao.dart';
+import '4_estoque.dart';
 
 class MenuPage extends StatelessWidget {
   const MenuPage({super.key});
@@ -33,6 +35,22 @@ class MenuPage extends StatelessWidget {
               title: const Text('2 - Divisão da conta'),
               trailing: const Icon(Icons.chevron_right),
               onTap: () => _abrir(context, const ContaPage()),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.confirmation_number_rounded),
+              title: const Text('3 - Inscrição em evento'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => _abrir(context, const InscricaoPage()),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.inventory_2_rounded),
+              title: const Text('4 - Controle de estoque'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => _abrir(context, const EstoquePage()),
             ),
           ),
         ],
