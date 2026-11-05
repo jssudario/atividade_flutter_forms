@@ -6,10 +6,10 @@ O app abre em um menu inicial com um botão para cada questão.
 
 | Questão | Tela | Arquivo |
 |---|---|---|
-| 1 | Conversor de temperatura | `lib/1_temperatura.dart` |
-| 2 | Divisão da conta | `lib/2_conta.dart` |
-| 3 | Inscrição em evento | `lib/3_inscricao.dart` |
-| 4 | Controle de estoque | `lib/4_estoque.dart` |
+| 1 | Conversor de temperatura | `lib/q1_temperatura.dart` |
+| 2 | Divisão da conta | `lib/q2_conta.dart` |
+| 3 | Inscrição em evento | `lib/q3_inscricao.dart` |
+| 4 | Controle de estoque | `lib/q4_estoque.dart` |
 
 ## Como rodar
 
@@ -34,8 +34,8 @@ Não há pacotes externos: o projeto usa só o Flutter.
 lib/
 ├── main.dart              # tema e ponto de entrada
 ├── menu.dart              # menu inicial
-├── 1_temperatura.dart
-├── 2_conta.dart
-├── 3_inscricao.dart
-└── 4_estoque.dart
+├── q1_temperatura.dart
+├── q2_conta.dart
+├── q3_inscricao.dart
+└── q4_estoque.dart
 ```

@@ -2,10 +2,10 @@
 
 import 'package:flutter/material.dart';
 
-import '1_temperatura.dart';
-import '2_conta.dart';
-import '3_inscricao.dart';
-import '4_estoque.dart';
+import 'q1_temperatura.dart';
+import 'q2_conta.dart';
+import 'q3_inscricao.dart';
+import 'q4_estoque.dart';
 
 class MenuPage extends StatelessWidget {
   const MenuPage({super.key});
