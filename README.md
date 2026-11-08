@@ -24,6 +24,9 @@ Pré-requisito: [Flutter](https://docs.flutter.dev/get-started/install) instalad
    flutter run -d chrome
    ```
    Para ver os dispositivos disponíveis, use `flutter devices`.
+
+   Se o Chrome não abrir (comum com o Flutter instalado via snap), use
+   `flutter run -d web-server --web-port 8080` e abra `http://localhost:8080` no navegador.
 3. No menu inicial, toque na questão que quer testar. A seta no canto da barra volta ao menu.
 
 Não há pacotes externos: o projeto usa só o Flutter.
